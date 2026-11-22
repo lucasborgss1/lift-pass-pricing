@@ -1,0 +1,21 @@
+# Idea
+.idea
+*.iml
+
+# Maven/Gradle
+target
+.gradle
+build
+
+# Eclipse
+.project
+.classpath
+.settings
+.pmd
+
+# VS Code
+.vscode
+
+# Arquivos locais de ferramentas
+.claude/
+CLAUDE.md
