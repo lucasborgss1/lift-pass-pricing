@@ -7,9 +7,7 @@ import org.slf4j.LoggerFactory;
 
 public class Main {
 
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
-        Class.forName("com.mysql.cj.jdbc.Driver");
-
+    public static void main(String[] args) throws SQLException {
         @SuppressWarnings("resource")
         Connection connection = Prices.createApp();
 
